@@ -5,11 +5,6 @@ import axios from "axios";
 
 
 class Header extends React.Component {
-    axios.get()
-             
-    axios.post('/')
-    
-    
     render(){
          return
          <div>
@@ -35,6 +30,11 @@ export default Header;
         //If they're state elements, Will I need Hooks to revtrieve them?
 
 
+
+
+        // axios.get()
+             
+        // axios.post('/')
 // get('localhost://3993/Header)  //NOt Working
 // put('')
 
