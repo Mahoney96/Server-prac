@@ -49,14 +49,15 @@ module.exports = {
             // NOTE:    How the above object function is written in the controller file for this object function:
                         // app.post('/api/shoes', ctrl.addShoe) 
 
-            //WHY:      Why do I need it in both the controller and index file?
-                //      - Notice the difference in how they're being written;
-                //      - Does one have more functionality than the other?
+            //WHY:      Do I need reference in both conroller file and index file?  
+                                    // **YES** :  
 
-            // **YES** :  For server/index.js - app.get('api/shoes', ctrl/getShoes)
-                                        // This is a reference:
-                                        // 1) To the index URL
+            //IN SERVER/INDEX.js File:
+                                //  app.get('api/shoes', ctrl/getShoes)
+                                        // THE ABOVE IS REFERENCING:
+                                        // 1) To the index URL 1st then comma, 
                                         // 2) The ctrl(controller) function in controller.js
+                                        // 3) server/index.js acts as a reference to the actual function objects that are in the controller or controller(s) files. 
 
 
 
